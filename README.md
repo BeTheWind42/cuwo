@@ -58,13 +58,13 @@ To run the server, run `python -m cuwo.server`.
 
 or:
 
-sudo apt-get install -y curl git build-essential libsqlite3-dev libssl-dev libbz2-dev libreadline-dev
+`sudo apt-get install -y curl git build-essential libsqlite3-dev libssl-dev libbz2-dev libreadline-dev`
 
-mkdir ~/cuwo
+`mkdir ~/cuwo`
 
-cd ~/cuwo
+`cd ~/cuwo`
 
-curl -L https://raw.githubusercontent.com/BeTheWind42/cuwo/master/bootstrap.sh | bash
+`curl -L https://raw.githubusercontent.com/BeTheWind42/cuwo/master/bootstrap.sh | bash`
 
 For more information, see
 [this guide](https://github.com/matpow2/cuwo/wiki/BuildSource).
