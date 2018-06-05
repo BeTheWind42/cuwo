@@ -1,2 +1,2 @@
-Cython==0.27
+Cython
 pyrr
