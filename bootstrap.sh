@@ -25,7 +25,7 @@ echo 'python setup.py build_ext --inplace' >> update.sh
 pyenv update
 pyenv install 3.6.1 --skip-existing
 pyenv local 3.6.1
-pip install -r requirements.txt
+pip install -r cython==0.27 pyrr
 python setup.py build_ext --inplace
 
 chmod +x run_server.sh
