@@ -53,15 +53,15 @@ port = 12345
 
 # Server send rate. Change this to a lower value for high-traffic servers.
 # The vanilla server uses 50, but 40 or 25 maybe more sensible.
-network_fps = 50
+network_fps = 25
 
 # World update rate. Change this to a lower value to reduce CPU usage.
 # The vanilla server uses 50, but it can be lowered slightly without
 # much difference.
-update_fps = 50
+update_fps = 25
 
 # Enables terrain generation. This may not be needed for barebones PvP servers.
-use_tgen = True
+use_tgen = False
 
 # Enables NPCs. Currently, only static NPCs work.
 use_entities = True
