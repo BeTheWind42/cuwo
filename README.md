@@ -66,6 +66,8 @@ or:
 
 `curl -L https://raw.githubusercontent.com/BeTheWind42/cuwo/master/bootstrap.sh | bash`
 
+`./run_server.sh`
+
 For more information, see
 [this guide](https://github.com/matpow2/cuwo/wiki/BuildSource).
 
