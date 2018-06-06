@@ -12,8 +12,7 @@ time_modifier = 1.0
 
 # List of scripts to run on the server on startup.
 # Consider turning both of the following scripts on: pvp, ctf
-scripts = ['log', 'ddos', 'commands', 'welcome', 'ban', 'console', 'master',
-           'anticheat']
+scripts = []
 
 # Passwords used for rights management. Keys are passwords, and values are
 # a list of user types under that password. Right now, only 'admin' is defined,
@@ -53,15 +52,15 @@ port = 12345
 
 # Server send rate. Change this to a lower value for high-traffic servers.
 # The vanilla server uses 50, but 40 or 25 maybe more sensible.
-network_fps = 25
+network_fps = 50
 
 # World update rate. Change this to a lower value to reduce CPU usage.
 # The vanilla server uses 50, but it can be lowered slightly without
 # much difference.
-update_fps = 25
+update_fps = 50
 
 # Enables terrain generation. This may not be needed for barebones PvP servers.
-use_tgen = False
+use_tgen = True
 
 # Enables NPCs. Currently, only static NPCs work.
 use_entities = True
