@@ -2,7 +2,7 @@
 
 set -e
 
-git clone https://github.com/matpow2/cuwo.git .
+git clone https://github.com/BeTheWind42/cuwo.git.
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 
 # create run_pyenv.sh
